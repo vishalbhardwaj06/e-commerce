@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  max-width: 600px;
+  width: 600px;
+  margin: 0 auto;
+  position: unset !important;  
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+}
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
